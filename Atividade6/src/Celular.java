@@ -24,7 +24,7 @@ public class Celular implements Processador, SmartPhone, Bateria {
 
 	@Override
 	public void carregar() {
-		System.out.println("Celular carregado!");
+		System.out.println("Celular em 100%!");
 		this.setCarregado(true);
 		this.setPorcentagem(100);
 	}
@@ -36,12 +36,12 @@ public class Celular implements Processador, SmartPhone, Bateria {
 
 	@Override
 	public String getTipoTela() {
-		return "Lcd";
+		return "LCD";
 	}
 
 	@Override
 	public String getTipoSmartPhone() {
-		return "Celular";
+		return "Telefone";
 	}
 
 	@Override
